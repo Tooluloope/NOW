@@ -1,0 +1,95 @@
+section {
+    padding-top: 80px;
+}
+
+.h2-responsive {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:not([href]):not([tabindex]),
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+}
+
+.icons-sm {
+    padding: .5rem;
+    margin: .5rem;
+    font-size: 1.2rem;
+}
+
+.fb-ic {
+    color: #3b5998!important;
+}
+
+a {
+    color: #0275d8;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.tw-ic {
+    color: #55acee!important;
+}
+
+.li-ic {
+    color: #0082ca!important;
+}
+
+.dribbble-ic {
+    color: #ec4a89!important;
+}
+
+.git-ic {
+    color: #333!important;
+}
+
+.ins-ic {
+    color: #2e5e86!important;
+}
+
+.yt-ic {
+    color: #ed302f!important;
+}
+
+.gplus-ic {
+    color: #dd4b39!important;
+}
+
+[role=button],
+a,
+area,
+button,
+input:not([type=range]),
+label,
+select,
+summary,
+textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+// *, ::after, ::before {
+//     box-sizing: border-box;
+// }
+@media only screen and (max-width: 992px) {
+    .center-on-small-only {
+        text-align: center;
+    }
+}

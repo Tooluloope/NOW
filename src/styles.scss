@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+// .padding-top {
+//     padding-top: 71px;
+// }
+html,
+body {
+    width: 100%;
+}
+
+.carousel,
+.carousel-item,
+.active {
+    height: 100% !important;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100% !important;
+}
+
+* {
+    touch-action: inherit !important;
+}
+
+.carousel-inner {
+    height: 100% !important;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+// // @media (max-width: 767px) {
+// //     html,
+// //     body {
+// //         overflow: hidden;
+// //     }
+// // }
+// @media (max-width: 767px) {
+// body {
+//     overflow: scroll;
+// }
+// }

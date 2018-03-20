@@ -1,0 +1,35 @@
+<nav class="navbar top-nav-collapse top-nav navbar-toggleable-md navbar-dark fixed-top black" [containerInside]="false">
+    <button (click)="toggleCollapse()" class="navbar-toggler navbar-toggler-right" type="button">
+      <span style="transition: all 1s ease-in-out;" [hidden]="collapse=='open'" class="fa fa-bars fa-lg"></span>
+      <span style="transition: all 0.5s ease;" [hidden]="collapse=='closed'" class="fa fa-times fa-lg"></span>
+    </button>
+    <a class="navbar-brand center" routerLink="/">
+        <img src="http://res.cloudinary.com/dn1b66xo5/image/upload/c_scale,w_64/v1518082536/NOW_1_cbolyb.jpg">
+    </a>
+
+    <div class="collapse navbar-collapse show" id="navbarSupportedContent" [@collapse]="collapse">
+        <ul class="navbar-nav mr-auto center font">
+            <li (click)="myMethod()" class="nav-item" [routerLinkActiveOptions]="{exact: true}" routerLinkActive="active">
+                <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li (click)="myMethod()" class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/about">About</a>
+            </li>
+            <li (click)="myMethod()" class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/portfolio">Portfolio</a>
+            </li>
+            <li (click)="myMethod()" class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/services">Services</a>
+            </li>
+            <li (click)="myMethod()" class="nav-item" routerLinkActive="active">
+                <a class="nav-link disabled" routerLink="/company">Company</a>
+            </li>
+            <li (click)="myMethod()" class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/team">Team</a>
+            </li>
+            <li (click)="myMethod()" class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/contact">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>

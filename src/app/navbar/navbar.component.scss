@@ -1,0 +1,26 @@
+.center {
+    align-items: center;
+}
+
+.font {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    margin-left: 47%;
+    /* 50% of your logo width */
+    display: block;
+}
+
+span {
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+// .collapse {
+//     position: absolute;
+//     z-index: 1;
+// }
